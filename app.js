@@ -1,3 +1,5 @@
+const profileDataArgs = process.argv.slice(2);
+
 const printProfileData = profileDataArr => {
     // This...
     for (let i = 0; i < profileDataArr.length; i += 1) {
@@ -11,6 +13,8 @@ const printProfileData = profileDataArr => {
       console.log(profileItem)
     });
   };
+printProfileData(profileDataArgs);
+
   /*
   // var is function-scoped, so redeclaring it in a block will cause its value outside the block to change as well:
 
