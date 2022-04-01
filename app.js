@@ -15,7 +15,7 @@ const printProfileData = profileDataArr => {
   };
 printProfileData(profileDataArgs);
 
-  /*
+/*
   // var is function-scoped, so redeclaring it in a block will cause its value outside the block to change as well:
 
 var one = 'one: declared outside the block';
